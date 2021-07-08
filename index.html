@@ -23,12 +23,12 @@
                     <div class="fill_up">
                         <h3 class="heading">Fill up</h3>
                         <form action="#" name="student">
-                            <input name="name" type="text" placeholder="Student Name">
-                            <input name="address" type="text" placeholder="Address">
-                            <input name="school" type="text" placeholder="School">
-                            <input name="class" type="text" placeholder="Class">
-                            <input name="section" type="text" placeholder="Section"><br>
-                            <button type="button">Result</button>
+                            <input id="name" name="name" type="text" placeholder="Student Name">
+                            <input id="address" name="address" type="text" placeholder="Address">
+                            <input id="school" name="school" type="text" placeholder="School">
+                            <input id="cl" name="cl" type="text" placeholder="Class">
+                            <input id="section" name="section" type="text" placeholder="Section"><br>
+                            <button onclick="info(student.name.value, student.address.value, student.school.value, student.cl.value, student.section.value)" type="button">Result</button>
                         </form>
                     </div>
                 </div>
@@ -38,12 +38,13 @@
                             Result
                         </h3>
                         <ul id="infoList">
-
+                            
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
