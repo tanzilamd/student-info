@@ -11,6 +11,7 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     padding: 20px 0;
+    color: var(--brand1);
 }
 .fill_up {
     font-family: 'Oswald', sans-serif;
