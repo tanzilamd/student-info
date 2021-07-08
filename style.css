@@ -1,0 +1,50 @@
+body {
+    background-image: linear-gradient(to right, var(--brand1), var(--brand2) );  
+    background-repeat: no-repeat;
+    padding: 50px 0;
+}
+.container {
+    background-color: var(--w);
+}
+.title {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    padding: 20px 0;
+}
+.fill_up {
+    font-family: 'Oswald', sans-serif;
+    padding: 20px;
+}
+.heading{
+    margin-bottom: 15px;
+}
+.fill_up form input{
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    outline: 0;
+    background-color: var(--input);
+    border: none; 
+    font-size: 18px;
+}
+.fill_up form input:focus{
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+.fill_up form button {
+    margin-top: 15px;
+    padding: 10px 25px;
+    background-color: var(--brand2);
+    color: white;
+    border: none;
+}
+.student_info {
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.student_info ul {
+    color: white;
+    width: 90%;
+    background-color: var(--bg);
+    min-height: 100px;
+}
